@@ -1,15 +1,130 @@
 .header {
-  background-color: aqua;
+  background-color: #495e57;
+  height: 300px;
 }
 
-.nav {
-  background-color: #004d40 ;
-}
+/* .nav {
+  background-color: #edefee ;
+  height: 100px;
+} */
 
 .main {
-  background-color: aquamarine;
+  background-color: #edefee;
+  height: 500px;
+}
+
+.main-header {
+  margin: 120px 0 0 120px;
+}
+
+.online-menu-button {
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  background-color: #f4ce14;
+  color: #333333;
+  font-weight: bolder;
+  border: none;
+}
+
+.online-menu-button-container {
+  position: absolute;
+  left: 60%;
+  width: 150px;
+}
+
+.online-menu-button:hover {
+  background-color: #f57f17;
+  cursor: pointer;
 }
 
 .footer {
-  background-color: blueviolet;
+  background-color: #fbdabb;
+  height: 200px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #edefee;
+  color: #333333;
+  padding: 15px 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #495e57;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s;
+  margin-right: 50px;
+}
+
+.nav-links li a:hover {
+  color: #ee9972;
+}
+
+.header-container {
+  margin-left: 120px;
+  max-width: 250px;
+  max-height: 150px;
+}
+
+.header-title {
+  color: #f4ce14;
+  margin: 0;
+}
+
+.header-image-container {
+  position: absolute;
+  left: 60%; /* Moves it to the third quarter */
+  top: 35%;
+  transform: translateY(-50%);
+}
+
+.header-image {
+  max-width: 600px;
+  max-height: 330px;
+  border-radius: 20px;
+}
+
+
+.header-paragraph {
+  top: 25px;
+  color: #edefee;
+  font-weight: 600;
+}
+
+.header-subtitle {
+  max-height: 100px;
+  margin: 0;
+  color: #edefee;
+}
+
+.reserve-a-table {
+  border-radius: 20px;
+  height: 50px;
+  width: 150px;
+  background-color: #f4ce14;
+  color: #333333;
+  font-weight: bold;
+}
+
+.reserve-a-table:hover {
+  background-color: #f57f17;
+  cursor: pointer;
 }
