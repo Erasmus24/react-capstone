@@ -5,6 +5,7 @@ import Main from './components/Main';
 import Footer from './components/Footer';
 import OnlineMenu from './components/OnlineMenu';
 import ReserveTable from './components/ReserveTable';
+import About from './components/About';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/online-menu" element={<OnlineMenu />} />
         <Route path="/reserve-table" element={<ReserveTable />} />
+        <Route path="/about" element={<About/>} />
       </Routes>
       <Footer />
     </>
