@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 import data from './data';
 
 const Main = () => {
@@ -6,7 +6,9 @@ const Main = () => {
     <div className='main'>
       <h1 className='main-header'>This week's specials!</h1>
       <div className='online-menu-button-container'>
-        <button className='online-menu-button'>Online Menu</button>
+        <Link to="/online-menu">
+          <button className='online-menu-button'>Online Menu</button>
+        </Link>
       </div>
       <div className='dishes-container'>
         {data.map((dish) => (
@@ -15,6 +17,7 @@ const Main = () => {
             <h2>{dish.dishName}</h2>
             <p>{dish.description}</p>
             <p className='dish-price'>{dish.price}</p>
+            <p className='order-delivery'>Order a delivery</p>
           </div>
         ))}
       </div>

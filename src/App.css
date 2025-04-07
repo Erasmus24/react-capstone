@@ -92,7 +92,7 @@
 
 .header-image-container {
   position: absolute;
-  left: 60%; /* Moves it to the third quarter */
+  left: 60%;
   top: 35%;
   transform: translateY(-50%);
 }
@@ -133,23 +133,76 @@
 .dishes-container {
   margin: 100px;
   display: flex;
-  flex-wrap: wrap; /* Allow wrapping if needed */
-  gap: 50px; /* Space between cards */
-  justify-content: center; /* Center cards horizontally */
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
 }
 
 .dish-card {
-  width: 350px; /* Set width of each card */
-  border: 1px solid #ccc; /* Optional border */
+  width: 350px;
+  border: 1px solid #ccc;
   border-radius: 10px;
   padding: 15px;
   text-align: center;
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
 }
 
 .dish-image {
   width: 100%;
-  height: auto;
+  height: 240px;
+  object-fit: cover;
   border-radius: 10px;
+}
+
+
+.dish-price {
+  color: crimson;
+  font-weight: 600;
+}
+
+.order-delivery {
+  font-weight: bold;
+}
+
+.reserve-table-form {
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.reserve-table-form h1 {
+  text-align: center;
+}
+
+.reserve-table-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.reserve-table-form label {
+  margin: 8px 0;
+  margin-right: 8px;
+}
+
+.reserve-table-form input {
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.reserve-table-form button {
+  padding: 10px;
+  background-color: #f4ce14;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reserve-table-form button:hover {
+  background-color: #f57f17;
 }
