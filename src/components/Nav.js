@@ -7,7 +7,6 @@ const Nav = () => {
     <nav className='nav'>
       {/* Restaurant Title */}
       <h1 className='title'>Little Lemon</h1>
-      
       {/* Navigation Links */}
       <ul className='nav-links'>
         <li><Link to='/'>Home</Link></li>

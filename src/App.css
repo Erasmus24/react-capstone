@@ -244,3 +244,53 @@
   font-size: 18px;
   color: #555;
 }
+
+.order-online-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.order-online-title {
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 18px;
+  color: #333;
+}
+
+.form-group input, .form-group select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.submit-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
