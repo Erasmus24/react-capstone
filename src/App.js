@@ -9,6 +9,7 @@ import About from './components/About';
 import OrderOnline from './components/OrderOnline';
 import Menu from './components/Menu';
 import Reservations from './components/Reservations';
+import Login from './components/Login';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/order-online" element={<OrderOnline/>} />
         <Route path="/menu" element={<Menu/>} />
         <Route path="/reservations" element={<Reservations/>} />
+        <Route path="/login" element={<Login/>} />
       </Routes>
       {/* <Footer /> */}
     </>
