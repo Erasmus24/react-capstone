@@ -8,6 +8,7 @@ import ReserveTable from './components/ReserveTable';
 import About from './components/About';
 import OrderOnline from './components/OrderOnline';
 import Menu from './components/Menu';
+import Reservations from './components/Reservations';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -22,8 +23,9 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/order-online" element={<OrderOnline/>} />
         <Route path="/menu" element={<Menu/>} />
+        <Route path="/reservations" element={<Reservations/>} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
